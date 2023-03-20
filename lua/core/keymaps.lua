@@ -34,3 +34,6 @@ keymap("n","<A-g>",":Ex<Cr>", default)
 
 -- undotree
 keymap("n", "<Leader>u", ":UndotreeToggle<Cr>", default)
+
+-- Truble toggle
+keymap("n", "<Leader>t", ":TroubleToggle<Cr>",default)
