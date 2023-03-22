@@ -37,3 +37,5 @@ keymap("n", "<Leader>u", ":UndotreeToggle<Cr>", default)
 
 -- Truble toggle
 keymap("n", "<Leader>t", ":TroubleToggle<Cr>",default)
+
+keymap("n","<Leader>h", "<cmd>lua vim.lsp.buf.hover()<Cr>", default)
